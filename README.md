@@ -13,8 +13,8 @@ You'll first clone the repo and run the install script:
     sudo -u pi bash ~/mainsail_theme/scripts/install.sh
 
 This will create read-only symlink files in `/home/pi/printer_data/config/.theme`
-which provide a basic theme that will incorporate the Logo and Primary colors set
-in the Interface Settings.
+which provide a basic theme that incorporates the Primary and Logo (secondary)
+colors as set in the Interface Settings.
 
 [RatOS]: https://github.com/Rat-OS/RatOS-theme
 [Acryl]: https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme
