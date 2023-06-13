@@ -10,7 +10,7 @@ You'll first clone the repo and run the install script:
 
     cd ~
     git clone https://github.com/gethe/mainsail_theme.git
-    sudo -u pi bash ~/mainsail_theme/scripts/install.sh
+    sudo -u pi bash ~/mainsail_theme/install.sh
 
 This will create read-only symlink files in `/home/pi/printer_data/config/.theme`
 which provide a basic theme that incorporates the Primary and Logo (secondary)
