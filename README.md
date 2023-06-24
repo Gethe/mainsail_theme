@@ -1,8 +1,9 @@
 # Custom Mainsail Theme
 
-This is my custom Mainsail/Klipper config. It is an amalgamation of various
-existing themes including [RatOS] and [Acryl], as well as incorporating Material
-Design concepts to the best of my ability.
+This is my custom Mainsail theme using aspects from various existing themes
+including [RatOS] and [Acryl]. It attempts to incorporate the Primary and Logo 
+colors, as set in the Interface Settings, in accordance with Material Design
+principles.
 
 ## Usage
 
@@ -12,9 +13,8 @@ You'll first clone the repo and run the install script:
     git clone https://github.com/gethe/mainsail_theme.git
     sudo -u pi bash ~/mainsail_theme/install.sh
 
-This will create read-only symlink files in `/home/pi/printer_data/config/.theme`
-which provide a basic theme that incorporates the Primary and Logo (secondary)
-colors as set in the Interface Settings.
+This will create an editable custom.css file and symlink the base theme files
+into `/home/pi/printer_data/config/.theme`.
 
 [RatOS]: https://github.com/Rat-OS/RatOS-theme
 [Acryl]: https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme
